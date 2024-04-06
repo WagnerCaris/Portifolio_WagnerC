@@ -8,6 +8,8 @@
     --linkhover-bg-color: linear-gradient(#dddb7a, #c8d25b, #000000);
     --buttonhover-bg-color: linear-gradient(#08474A, #095256);
 }
+
+    /* O asterisco seleciona todos os elementos de pagina HTML */
 *{
     padding: 0;
     margin: 0;
@@ -60,17 +62,17 @@ nav a{
     justify-content: space-between;
     gap: 20px;
 }
-    .apresentacao_texto{
+.apresentacao_texto{
         font-size: 1.50rem;
         color: aqua;
     }
-    .apresentacao_titulo{
+.apresentacao_titulo{
         font-size: 2.5rem;
         font-family: var(--pri-text-font);
         line-height: 1.2;
         color: #207e57;
     }
-    .apresentacao_foto_perfil{
+.apresentacao_foto_perfil{
         width: 35%;
         /* margin: 0%; */
         border-radius: 360px;
@@ -78,20 +80,21 @@ nav a{
         box-shadow: var(--fth-color) 8px 8px;
         /* transition: 0.5s ease; */
     }
-    .rodape{
+.rodape{
         width: 100%;
         /* padding: 5%; */
         /* display: flex; */
         /* justify-content: center; */
     }
-    xmp2{
+    
+xmp2{
         /* display: flex; */
         /* justify-content: center; */
         margin-left: 100px;
         align-items: center;
         font-size: 50px;
     }
-    .contatos ul{
+.contatos ul{
         display: flex;
         /* justify-content: space-between; */
         flex-flow: column-reverse;
@@ -127,5 +130,28 @@ nav a{
         list-style-type: none;
         display: flex;
         padding: 20px 50px;
+        
+    }
+    form {
+        input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], input[type="password"], textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #faac03;
+            border-radius: 5px;
+            background-color: #d1cbbf;
+            color: #000000;
+        }
+        input[type="submit"]{
+            width: 10%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #faac03;
+            border-radius: 5px;
+            background-color: #d1cbbf;
+            color: #000000;
+            cursor: pointer;
+        }
+
     }
     
